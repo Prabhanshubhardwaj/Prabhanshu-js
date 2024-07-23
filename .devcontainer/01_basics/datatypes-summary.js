@@ -1,4 +1,4 @@
-//  Primitive
+//  Primitive datatypes
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -14,7 +14,8 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-// const bigNumber = 3456543576654356754n
+const bigNumber = 3456543576654356754n
+ console.log(typeof bigNumber)
 
 
 
@@ -27,7 +28,7 @@ let myObj = {
     name: "hitesh",
     age: 22,
 }
-
+console.log(typeof myObj)
 const myFunction = function(){
     console.log("Hello world");
 }
@@ -35,3 +36,18 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// Return type of variables in JavaScript
+// 1) Primitive Datatypes
+//        Number => number
+//        String  => string
+//        Boolean  => boolean
+//        null  => object
+//        undefined  =>  undefined
+//        Symbol  =>  symbol
+//        BigInt  =>  bigint
+
+// 2) Non-primitive Datatypes
+//        Arrays  =>  object
+//        Function  =>  function
+//        Object  =>  object
