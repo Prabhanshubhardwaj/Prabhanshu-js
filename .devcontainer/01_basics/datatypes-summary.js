@@ -51,6 +51,7 @@ console.log(typeof anotherId);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+//        Date =>object
 
 // stack(primitiv)
 // heap(non perimitive hai-> reference use hota hai)
