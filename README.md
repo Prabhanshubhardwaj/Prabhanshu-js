@@ -1,2 +1,2 @@
-# Prabhanshu-project
+# Prabhanshu-js
 Author-prabhanshu bhardwaj 
